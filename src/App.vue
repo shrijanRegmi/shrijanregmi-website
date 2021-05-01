@@ -1,20 +1,40 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <Navbar />
+    <router-view />
+    <MobileNav />
   </div>
 </template>
 
+<script>
+import Navbar from "@/components/navbar";
+import MobileNav from "@/components/mobile_navbar";
+
+export default {
+  components: {
+    Navbar,
+    MobileNav,
+  },
+};
+</script>
+
 <style>
+html {
+  background-color: #f7f3f0;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #707070;
+  background-color: #f7f3f0;
+  transition: 0.9s all;
 }
 
 #nav {

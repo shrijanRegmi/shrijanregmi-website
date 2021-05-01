@@ -1,0 +1,28 @@
+<template>
+  <div class="expertise-item">
+    <div class="d-flex justify-content-between align-items-center w-100">
+      <h2 class="index">(0{{ expertise.id }})</h2>
+      <div class="d-flex align-items-center justify-content-between w-50">
+        <h3>
+          {{ expertise.title }}
+        </h3>
+        <div class="plus">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+        </div>
+      </div>
+    </div>
+    <hr />
+  </div>
+</template>
+
+<script>
+export default {
+  name: "ExpertiseItem",
+  props: {
+    expertise: Object,
+  },
+};
+</script>
+
+<style></style>
