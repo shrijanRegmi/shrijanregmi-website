@@ -1,3 +1,9 @@
+$xs-breakpoint: 500px;
+$sm-breakpoint: 768px;
+$md-breakpoint: 992px;
+$lg-breakpoint: 1200px;
+$xl-breakpoint: 1400px;
+
 .scroll-text {
   position: absolute;
   left: 70px;
@@ -94,6 +100,7 @@ a {
 }
 
 .plus {
+  margin-left: 20px;
   .line {
     height: 3px;
     width: 40px;
@@ -141,7 +148,7 @@ a {
   .content {
     padding: 0px 150px;
   }
-  
+
   .backToTop {
     cursor: pointer;
   }
@@ -216,6 +223,141 @@ a {
 
     .line {
       background-color: #171614;
+    }
+  }
+}
+
+@media screen and (max-width: $xl-breakpoint) {
+  h1 {
+    font-size: 200px !important;
+  }
+
+  .landing {
+    img {
+      top: 800px;
+    }
+  }
+
+  .about {
+    padding: 100px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: $lg-breakpoint) {
+  h1 {
+    font-size: 150px !important;
+  }
+
+  .landing {
+    img {
+      top: 600px;
+      height: 700px;
+    }
+
+    .developer-text {
+      margin-top: 400px;
+    }
+  }
+
+  .about {
+    .about1 {
+      margin-top: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: $md-breakpoint) {
+  h1 {
+    font-size: 100px !important;
+  }
+
+  h3 {
+    font-size: 24px !important;
+  }
+
+  .expertise-item {
+    .d-flex {
+      padding: 20px;
+    }
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .content {
+      padding: 0px 20px;
+    }
+  }
+
+  .landing {
+    img {
+      top: 400px;
+      height: 500px;
+    }
+  }
+
+  .about {
+    .about1 {
+      margin-top: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: $sm-breakpoint) {
+  h1 {
+    font-size: 70px !important;
+  }
+  h2 {
+    font-size: 70px !important;
+  }
+  .landing {
+    img {
+      top: 350px;
+      height: 460px;
+    }
+
+    .developer-text {
+      margin-top: 360px;
+    }
+  }
+
+  .about {
+    padding: 50px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .about1 {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: $xs-breakpoint) {
+  h1 {
+    font-size: 50px !important;
+  }
+  h2 {
+    font-size: 50px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+
+  .landing {
+    img {
+      top: 300px;
+      height: 460px;
+    }
+
+    .developer-text {
+      margin-top: 370px;
     }
   }
 }

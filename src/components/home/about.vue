@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="about d-flex justify-content-between">
+  <div id="about" class="about d-flex flex-column flex-xl-row justify-content-between">
     <div>
       <h6 class="d-flex">
         (01)

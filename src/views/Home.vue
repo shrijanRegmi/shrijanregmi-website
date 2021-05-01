@@ -1,8 +1,10 @@
 <template>
   <div class="home">
     <Landing />
-    <p class="scroll-text">SCROLL</p>
-    <p class="based-text text-end">BASED IN<br />SPRUCE GROVE & LEDUC</p>
+    <p class="scroll-text d-none d-md-block">SCROLL</p>
+    <p class="based-text text-end d-none d-md-block">
+      BASED IN<br />SPRUCE GROVE & LEDUC
+    </p>
     <About />
     <Services />
     <Partners />

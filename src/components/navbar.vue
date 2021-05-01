@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div class="mNav d-flex justify-content-between align-items-center w-100">
-      <p>GET IN TOUCH</p>
+      <p class="d-none d-md-block">GET IN TOUCH</p>
       <h6 class="d-flex align-items-center">
         SHRIJAN
         <div class="circle"></div>

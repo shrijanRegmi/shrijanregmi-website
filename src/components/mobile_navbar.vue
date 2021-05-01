@@ -41,12 +41,14 @@
         <h2>CONTACT</h2>
       </a>
     </div>
-    <div class="px-5 d-flex justify-content-between align-items-center w-100">
-      <h4 class="d-flex">
+    <div
+      class="px-5 d-flex flex-column flex-md-row justify-content-between align-items-center w-100"
+    >
+      <p class="d-flex">
         &#169; 2020
-      </h4>
-      <h4 class="ml-5">MADE BY SR</h4>
-      <h4>ALL RIGHTS RESERVED</h4>
+      </p>
+      <p class="ml-5">MADE BY SR</p>
+      <p>ALL RIGHTS RESERVED</p>
     </div>
   </div>
 </template>

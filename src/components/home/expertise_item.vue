@@ -2,7 +2,7 @@
   <div class="expertise-item">
     <div class="d-flex justify-content-between align-items-center w-100">
       <h2 class="index">(0{{ expertise.id }})</h2>
-      <div class="d-flex align-items-center justify-content-between w-50">
+      <div class="d-flex align-items-center justify-content-end w-100">
         <h3>
           {{ expertise.title }}
         </h3>
