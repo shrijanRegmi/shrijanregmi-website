@@ -6,6 +6,7 @@
       BASED IN<br />SPRUCE GROVE & LEDUC
     </p>
     <About />
+    <ScrollText />
     <Services />
     <Partners />
     <Contact />
@@ -15,6 +16,7 @@
 <script>
 import Landing from "@/components/home/landing";
 import About from "@/components/home/about";
+import ScrollText from "@/components/home/scroll_text";
 import Services from "@/components/home/services";
 import Partners from "@/components/home/partners";
 import Contact from "@/components/home/contact";
@@ -24,6 +26,7 @@ export default {
   components: {
     Landing,
     About,
+    ScrollText,
     Services,
     Partners,
     Contact,
@@ -35,10 +38,27 @@ export default {
     const app = document.querySelector("#app");
     const hrs = document.querySelectorAll(".contact hr");
 
+    const horizontalTextSection = document.querySelector(
+      ".horizontal-scroll-text"
+    );
+    const horizontalText1 = document.querySelector(".horizontal-scroll-text .text1");
+    const horizontalText2 = document.querySelector(".horizontal-scroll-text .text2");
+
     window.onscroll = function() {
       const fadePos = partnerSection.offsetTop - (window.innerHeight / 2 - 100);
       const fadePosContact = contact.offsetTop - (window.innerHeight / 2 - 300);
+
+      const horizontalTextSectionPos =
+        horizontalTextSection.offsetTop - (window.innerHeight / 2 + 500);
+
       const scrollPos = window.scrollY;
+      const horizontalTextPos = (window.scrollY - horizontalTextSectionPos) / 3;
+
+      if (scrollPos >= horizontalTextSectionPos) {
+        console.log("e");
+        horizontalText1.style.transform = `translateX(-${horizontalTextPos}px)`;
+        horizontalText2.style.transform = `translateX(${horizontalTextPos}px)`;
+      }
 
       if (scrollPos >= fadePos) {
         app.classList.add("black-bg");

@@ -90,6 +90,21 @@ a {
   }
 }
 
+// scroll-text
+.horizontal-scroll-text {
+  position: relative;
+  margin: 500px 0px;
+  h2 {
+    white-space: nowrap;
+    // text-align: end;
+  }
+
+  .text2 {
+    position: absolute;
+    left: -50%;
+  }
+}
+
 // services
 .services {
   padding: 100px 0px;
@@ -245,6 +260,10 @@ a {
       height: auto;
     }
   }
+
+  .horizontal-scroll-text {
+    margin: 400px 0px;
+  }
 }
 
 @media screen and (max-width: $lg-breakpoint) {
@@ -267,6 +286,10 @@ a {
     .about1 {
       margin-top: 100px;
     }
+  }
+
+  .horizontal-scroll-text {
+    margin: 300px 0px;
   }
 }
 
@@ -305,6 +328,10 @@ a {
     .about1 {
       margin-top: 100px;
     }
+  }
+
+  .horizontal-scroll-text {
+    margin: 200px 0px;
   }
 }
 
