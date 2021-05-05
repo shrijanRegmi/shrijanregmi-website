@@ -112,6 +112,14 @@ a {
   h1 {
     margin-bottom: 130px;
   }
+
+  .services-icons {
+    margin-bottom: 200px;
+
+    img {
+      cursor: pointer;
+    }
+  }
 }
 
 .plus {
@@ -364,6 +372,22 @@ a {
       margin-top: 50px;
     }
   }
+
+  .services {
+    h1 {
+      margin-bottom: 60px;
+    }
+
+    .services-icons {
+      margin-bottom: 90px;
+
+      img {
+        cursor: pointer;
+        width: 60px;
+        height: auto;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: $xs-breakpoint) {
@@ -378,13 +402,26 @@ a {
   }
 
   .landing {
+    h1 {
+      margin-top: 70px;
+    }
     img {
-      top: 300px;
-      height: 460px;
+      top: 320px;
+      height: 490px;
     }
 
     .developer-text {
-      margin-top: 370px;
+      margin-top: 400px;
+    }
+  }
+
+  .services {
+    .services-icons {
+      img {
+        cursor: pointer;
+        width: 40px;
+        height: auto;
+      }
     }
   }
 }

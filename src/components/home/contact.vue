@@ -18,7 +18,7 @@
       >
         SAY HELLO
       </a>
-      <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <h4 class="text-end">
           <div class="mb-4">SHRIJAN REGMI<br /></div>
           GOLFUTAR, BUDANILKANTHA,<br />
