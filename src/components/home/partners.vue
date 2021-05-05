@@ -52,7 +52,7 @@
         >
           We have a wealth of experience working with corporate and personal
           clients. Many of those clients have been working with us for more than
-          two decades.
+          two years.
         </h4>
       </div>
     </div>

@@ -29,14 +29,14 @@
     </div>
     <hr />
     <div
-      class="content content3 d-flex flex-column flex-lg-row justify-content-between"
+      class="content content3 d-flex flex-column flex-lg-row justify-content-between align-items-center"
     >
       <h4 class="ml-5 backToTop d-block d-lg-none" @click="onBackToTopClicked">
         (BACK TO TOP)
       </h4>
       <h4 class="d-flex">
         &#169; 2020
-        <div class="mx-4">MADE BY SR</div>
+        <div class="mx-2 mx-lg-4">MADE BY SR</div>
       </h4>
       <h4 class="ml-5 backToTop d-none d-lg-block" @click="onBackToTopClicked">
         (BACK TO TOP)

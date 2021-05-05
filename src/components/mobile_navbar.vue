@@ -1,9 +1,8 @@
 <template>
   <div
-    class="mobile-navbar d-flex flex-column justify-content-between align-items-center"
+    class="mobile-navbar d-flex flex-column justify-content-center align-items-center"
   >
-    <div></div>
-    <div class="content">
+    <div class="content mb-5">
       <a
         href="#about"
         class="item item1 d-flex align-items-center"
@@ -42,7 +41,7 @@
       </a>
     </div>
     <div
-      class="px-5 d-flex flex-column flex-md-row justify-content-between align-items-center w-100"
+      class="mobile-nav-footer px-5 d-flex flex-column flex-md-row justify-content-between align-items-center w-100 mb-4"
     >
       <p class="d-flex">
         &#169; 2020

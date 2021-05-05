@@ -3,7 +3,7 @@
     <Landing />
     <p class="scroll-text d-none d-md-block">SCROLL</p>
     <p class="based-text text-end d-none d-md-block">
-      BASED IN<br />SPRUCE GROVE & LEDUC
+      BASED IN<br />NEPAL, KATHMANDU
     </p>
     <About />
     <ScrollText />
@@ -41,8 +41,12 @@ export default {
     const horizontalTextSection = document.querySelector(
       ".horizontal-scroll-text"
     );
-    const horizontalText1 = document.querySelector(".horizontal-scroll-text .text1");
-    const horizontalText2 = document.querySelector(".horizontal-scroll-text .text2");
+    const horizontalText1 = document.querySelector(
+      ".horizontal-scroll-text .text1"
+    );
+    const horizontalText2 = document.querySelector(
+      ".horizontal-scroll-text .text2"
+    );
 
     window.onscroll = function() {
       const fadePos = partnerSection.offsetTop - (window.innerHeight / 2 - 100);

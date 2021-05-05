@@ -23,8 +23,13 @@ html {
   background-color: #f7f3f0;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   overflow-x: hidden !important;
+  scrollbar-width: thin;
 }
 
 #app {

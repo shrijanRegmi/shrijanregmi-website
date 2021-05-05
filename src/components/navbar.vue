@@ -22,11 +22,13 @@ export default {
   name: "Navbar",
   methods: {
     onMenuClick() {
+      const body = document.querySelector("body");
       const menu = document.querySelector(".menu");
       const mobileNav = document.querySelector(".mobile-navbar");
 
       mobileNav.classList.toggle("mobile-navbar-show");
       menu.classList.toggle("white-menu");
+      body.classList.toggle("disable-scroll");
     },
   },
 };
