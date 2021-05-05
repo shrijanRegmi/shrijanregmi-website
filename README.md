@@ -1,5 +1,7 @@
 # shrijanregmi
 
+Visit the website @ www.shrijanregmi.com
+
 ## Project setup
 ```
 npm install
