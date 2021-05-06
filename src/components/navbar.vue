@@ -1,6 +1,8 @@
 <template>
   <div class="navbar">
-    <div class="mNav d-flex justify-content-between align-items-center w-100">
+    <div
+      class="mNav d-flex justify-content-between align-items-center w-100 mb-1"
+    >
       <p class="d-none d-md-block">GET IN TOUCH</p>
       <h6 class="d-flex align-items-center">
         SHRIJAN
@@ -14,12 +16,16 @@
         <div class="line line3"></div>
       </div>
     </div>
+    <SocialLinks class="d-none d-md-block" />
   </div>
 </template>
 
 <script>
+import SocialLinks from "@/components/home/social_links";
+
 export default {
   name: "Navbar",
+  components: { SocialLinks },
   methods: {
     onMenuClick() {
       const body = document.querySelector("body");
