@@ -43,16 +43,52 @@
       </h4>
       <h4>ALL RIGHTS RESERVED</h4>
     </div>
+    <div class="d-flex justify-content-center w-100">
+      <SocialLinks
+        :icons="icons"
+        class="mt-5"
+        :style="{
+          width: '200px !important',
+        }"
+      />
+    </div>
   </div>
 </template>
 
 <script>
+import SocialLinks from "@/components/home/social_links";
+
 export default {
   name: "Contact",
+  components: {
+    SocialLinks,
+  },
   methods: {
     onBackToTopClicked() {
       scrollTo(0, 0);
     },
+  },
+  data: function() {
+    return {
+      icons: [
+        {
+          url: "https://www.facebook.com/ilyyhs52/",
+          svg: "facebook_white",
+        },
+        {
+          url: "https://www.github.com/shrijanRegmi/",
+          svg: "github_white",
+        },
+        {
+          url: "https://www.linkedin.com/in/shrijan-regmi-3ab7301aa/",
+          svg: "linkedin_white",
+        },
+        {
+          url: "https://www.instagram.com/shrijan_regmi/",
+          svg: "instagram_white",
+        },
+      ],
+    };
   },
 };
 </script>

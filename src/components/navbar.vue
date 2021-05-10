@@ -16,7 +16,13 @@
         <div class="line line3"></div>
       </div>
     </div>
-    <SocialLinks class="d-none d-md-block" />
+    <SocialLinks
+      :icons="icons"
+      class="d-none d-md-flex"
+      :style="{
+        width: '120px !important',
+      }"
+    />
   </div>
 </template>
 
@@ -36,6 +42,24 @@ export default {
       menu.classList.toggle("white-menu");
       body.classList.toggle("disable-scroll");
     },
+  },
+  data: function() {
+    return {
+      icons: [
+        {
+          url: "https://www.facebook.com/ilyyhs52/",
+          svg: "facebook",
+        },
+        {
+          url: "https://www.github.com/shrijanRegmi/",
+          svg: "github",
+        },
+        {
+          url: "https://www.linkedin.com/in/shrijan-regmi-3ab7301aa/",
+          svg: "linkedin",
+        },
+      ],
+    };
   },
 };
 </script>

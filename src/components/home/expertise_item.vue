@@ -6,10 +6,10 @@
         <h3>
           {{ expertise.title }}
         </h3>
-        <div class="plus">
+        <!-- <div class="plus">
           <div class="line line1"></div>
           <div class="line line2"></div>
-        </div>
+        </div> -->
       </div>
     </div>
     <hr />

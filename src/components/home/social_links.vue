@@ -1,26 +1,16 @@
 <template>
-  <div class="social-network d-flex">
+  <div class="social-network d-flex justify-content-between">
     <a
-      href="https://www.facebook.com/ilyyhs52/"
+      :href="socialLink.url"
       target="_blank"
       rel="noopener noreferrer"
+      v-for="socialLink in socialLinks"
+      :key="socialLink.url"
     >
-      <img src="@/assets/svgs/social_links/facebook.svg" alt="" />
-    </a>
-    <a
-      href="https://www.linkedin.com/in/shrijan-regmi-3ab7301aa/"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="mx-3"
-    >
-      <img src="@/assets/svgs/social_links/linkedin.svg" alt="" />
-    </a>
-    <a
-      href="https://www.instagram.com/shrijan_regmi/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img src="@/assets/svgs/social_links/instagram.svg" alt="" />
+      <img
+        :src="require(`@/assets/svgs/social_links/${socialLink.svg}.svg`)"
+        alt=""
+      />
     </a>
   </div>
 </template>
@@ -28,6 +18,15 @@
 <script>
 export default {
   name: "SocialLinks",
+  props: {
+    icons: Array,
+  },
+  data: function() {
+    console.log(this.icons);
+    return {
+      socialLinks: this.icons,
+    };
+  },
 };
 </script>
 
@@ -36,13 +35,6 @@ export default {
   img {
     width: 30px;
     height: 30px;
-  }
-
-  @media screen and (max-width: 756px) {
-    img {
-      width: 20px;
-      height: 20px;
-    }
   }
 }
 </style>
