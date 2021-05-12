@@ -35,7 +35,7 @@ export default {
     const partnerSection = document.querySelector(".partners");
     const contact = document.querySelector(".contact");
 
-    const app = document.querySelector("#app");
+    const app = document.querySelector(".home");
     const hrs = document.querySelectorAll(".contact hr");
 
     const horizontalTextSection = document.querySelector(
@@ -59,7 +59,6 @@ export default {
       const horizontalTextPos = (window.scrollY - horizontalTextSectionPos) / 3;
 
       if (scrollPos >= horizontalTextSectionPos) {
-        console.log("e");
         horizontalText1.style.transform = `translateX(-${horizontalTextPos}px)`;
         horizontalText2.style.transform = `translateX(${horizontalTextPos}px)`;
       }

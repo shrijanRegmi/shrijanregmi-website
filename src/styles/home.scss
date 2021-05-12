@@ -4,6 +4,10 @@ $md-breakpoint: 992px;
 $lg-breakpoint: 1200px;
 $xl-breakpoint: 1400px;
 
+.home {
+  transition: 0.9s all;
+}
+
 .scroll-text {
   position: absolute;
   left: 70px;

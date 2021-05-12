@@ -76,7 +76,7 @@ export default {
           svg: "facebook_white",
         },
         {
-          url: "https://www.github.com/shrijanRegmi/",
+          url: "https://github.com/shrijanRegmi?tab=repositories",
           svg: "github_white",
         },
         {

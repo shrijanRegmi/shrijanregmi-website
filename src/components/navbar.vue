@@ -51,7 +51,7 @@ export default {
           svg: "facebook",
         },
         {
-          url: "https://www.github.com/shrijanRegmi/",
+          url: "https://github.com/shrijanRegmi?tab=repositories",
           svg: "github",
         },
         {

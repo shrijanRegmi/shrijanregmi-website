@@ -21,7 +21,11 @@
           alt="Flutter"
           class="img-fluid"
       /></a>
-      <a href="http://www.javascript.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="http://www.javascript.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           src="@/assets/images/expertise/javascript.png"
           alt="Javascript"
@@ -59,14 +63,12 @@ export default {
         {
           id: 1,
           title: "MOBILE APP DEVELOPMENT",
+          route: "/projects/mobile",
         },
         {
           id: 2,
           title: "WEB DEVELOPMENT",
-        },
-        {
-          id: 3,
-          title: "GIT",
+          route: "/projects/web",
         },
       ],
     };

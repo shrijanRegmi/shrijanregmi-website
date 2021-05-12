@@ -39,7 +39,6 @@ body {
   text-align: center;
   color: #707070;
   background-color: #f7f3f0;
-  transition: 0.9s all;
   overflow-x: hidden !important;
 }
 

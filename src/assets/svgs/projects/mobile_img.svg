@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="564" height="584" viewBox="0 0 564 584">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="284" height="292" transform="translate(684 191)" fill="#53c6ff"/>
+    </clipPath>
+  </defs>
+  <g id="mobile_img" transform="translate(-378 -191)">
+    <g id="Group_11" data-name="Group 11" transform="translate(-26)">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="284" height="292" transform="translate(684 191)" fill="#53c6ff"/>
+      <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+        <text id="_01" data-name="01" transform="translate(915 507)" fill="rgba(255,255,255,0.32)" font-size="142" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="-85.2" y="0">01</tspan></text>
+      </g>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(-26 292)">
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="284" height="292" transform="translate(684 191)" fill="#e74a7d"/>
+      <g id="Mask_Group_1-2" data-name="Mask Group 1" clip-path="url(#clip-path)">
+        <text id="_03" data-name="03" transform="translate(901 514)" fill="rgba(255,255,255,0.32)" font-size="142" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="-85.2" y="0">03</tspan></text>
+      </g>
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="translate(-306 292)">
+      <rect id="Rectangle_4-3" data-name="Rectangle 4" width="284" height="292" transform="translate(684 191)" fill="#326bf6"/>
+      <g id="Mask_Group_1-3" data-name="Mask Group 1" clip-path="url(#clip-path)">
+        <text id="_02" data-name="02" transform="translate(903 509)" fill="rgba(255,255,255,0.32)" font-size="142" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="-85.271" y="0">02</tspan></text>
+      </g>
+    </g>
+    <text id="past" transform="translate(737 297)" fill="#fff" font-size="44" font-family="Nunito-Regular, Nunito"><tspan x="-42.394" y="0">past</tspan></text>
+    <text id="present" transform="translate(504 593)" fill="#fff" font-size="44" font-family="Nunito-Regular, Nunito"><tspan x="-74.074" y="0">present</tspan></text>
+    <text id="feature" transform="translate(764 593)" fill="#fff" font-size="44" font-family="Nunito-Regular, Nunito"><tspan x="-69.322" y="0">feature</tspan></text>
+  </g>
+</svg>

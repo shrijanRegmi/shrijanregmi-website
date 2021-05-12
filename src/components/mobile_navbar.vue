@@ -14,7 +14,7 @@
     </div>
     <div class="content mb-5">
       <a
-        href="#about"
+        href="/#about"
         class="item item1 d-flex align-items-center"
         @click="onLinkClicked"
       >
@@ -23,7 +23,7 @@
         <h2>ABOUT US</h2>
       </a>
       <a
-        href="#services"
+        href="/#services"
         class="item item2 d-flex align-items-center"
         @click="onLinkClicked"
       >
@@ -32,7 +32,7 @@
         <h2>SERVICES</h2>
       </a>
       <a
-        href="#partners"
+        href="/#partners"
         class="item item3 d-flex align-items-center"
         @click="onLinkClicked"
       >
@@ -41,7 +41,7 @@
         <h2>PARTNERS</h2>
       </a>
       <a
-        href="#contact"
+        href="/#contact"
         class="item item4 d-flex align-items-center"
         @click="onLinkClicked"
       >
@@ -73,11 +73,13 @@ export default {
   },
   methods: {
     onLinkClicked() {
+      const body = document.querySelector("body");
       const mobileNav = document.querySelector(".mobile-navbar");
       const menu = document.querySelector(".menu");
 
       mobileNav.classList.remove("mobile-navbar-show");
       menu.classList.remove("white-menu");
+      body.classList.remove("disable-scroll");
     },
   },
   data: function() {
@@ -88,7 +90,7 @@ export default {
           svg: "facebook_white",
         },
         {
-          url: "https://www.github.com/shrijanRegmi/",
+          url: "https://github.com/shrijanRegmi?tab=repositories",
           svg: "github_white",
         },
         {
