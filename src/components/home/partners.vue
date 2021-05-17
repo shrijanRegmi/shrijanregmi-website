@@ -13,7 +13,7 @@
           data-aos-anchor-placement="bottom-bottom"
         >
           <img
-            src="@/assets/images/partner1.png"
+            src="@/assets/images/partner1.jpg"
             alt="William Brown"
             class="img-fluid"
           />
@@ -31,7 +31,7 @@
           data-aos-anchor-placement="bottom-bottom"
         >
           <img
-            src="@/assets/images/partner2.png"
+            src="@/assets/images/partner2.jpg"
             alt="David Johnson"
             class="img-fluid"
           />

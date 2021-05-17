@@ -10,7 +10,7 @@
         class="about1"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
-        src="@/assets/images/about1.png"
+        src="@/assets/images/about1.jpg"
         alt="Working"
       />
     </div>
@@ -30,7 +30,7 @@
         class="about2"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
-        src="@/assets/images/about2.png"
+        src="@/assets/images/about2.jpg"
         alt="Working"
       />
     </div>

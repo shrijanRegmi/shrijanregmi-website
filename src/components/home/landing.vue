@@ -3,7 +3,7 @@
     <div>
       <h1 data-aos="fade-up">Trusted &<br />Experienced</h1>
     </div>
-    <img src="@/assets/images/landing.png" alt="Mobile Developer" srcset="" />
+    <img src="@/assets/images/landing.jpg" alt="Mobile Developer" srcset="" />
     <h1 data-aos="fade-up" class="developer-text">Developer</h1>
     <hr />
   </div>
