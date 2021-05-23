@@ -10,7 +10,7 @@
         class="about1"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
-        src="@/assets/images/about1.jpg"
+        src="@/assets/images/about1.png"
         alt="Working"
       />
     </div>
