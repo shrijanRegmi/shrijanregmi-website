@@ -55,7 +55,7 @@
       class="mobile-nav-footer px-5 d-flex flex-column flex-md-row justify-content-between align-items-center w-100 mb-4 mt-4"
     >
       <p class="d-flex">
-        &#169; 2020
+        &#169; 2021
       </p>
       <p class="ml-5">MADE BY SR</p>
       <p>ALL RIGHTS RESERVED</p>

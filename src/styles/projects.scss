@@ -24,14 +24,17 @@
     width: 60%;
     font-weight: bold;
     margin-bottom: 50px;
+    word-break: break-all;
   }
 
-  a {
+  .github {
+    margin-right: 100px;
     padding: 10px 30px;
     color: white;
     background-color: black;
     font-weight: bold;
     width: 160px;
+    height: 50px;
 
     img {
       margin: 0px;
@@ -44,8 +47,27 @@
     }
   }
 
-  @media screen and(max-width: 1200px) {
+  .project-tools {
+    width: 100%;
+    margin-bottom: 4px;
+    p {
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .tools {
+      justify-content: flex-start !important;
+    }
+
     img {
+      width: 40px;
+      margin-right: 30px;
+    }
+  }
+
+  @media screen and(max-width: 1200px) {
+    .img-main {
       padding: 0px 20px;
       margin-bottom: 30px;
     }
@@ -71,7 +93,7 @@
       margin-bottom: 40px;
     }
 
-    img {
+    .img-main {
       margin-bottom: 0px;
     }
   }

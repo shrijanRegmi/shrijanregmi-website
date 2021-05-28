@@ -35,22 +35,88 @@ export default {
           svg: "peaman",
           title: "peaman",
           description:
-            "We have a wealth of experience working with corporate and personal clients. Many of those clients have been working with us for more than two decades.",
+            "A complete social media app that has features like Post/React/Comment/Chat/Follow/Stories and much more made using flutter and firebase.",
           gitHub: "https://github.com/shrijanregmi/flutter-peaman",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
         },
         {
           svg: "spottup",
           title: "spottup",
           description:
-            "We have a wealth of experience working with corporate and personal clients. Many of those clients have been working with us for more than two decades.",
+            "A complete Hotel/Tour/Vehicle booking app where user can register as a partner or as a customer made using flutter and firebase.",
           gitHub: "https://github.com/shrijanregmi/flutter-spottup",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
         },
         {
           svg: "nova",
           title: "nova<br/>esports",
           description:
-            "We have a wealth of experience working with corporate and personal clients. Many of those clients have been working with us for more than two decades.",
+            "A pubg/freefire tournament hosting app where you can host solo, duo or squad tournament between the users. Chat with your teammates on real time. Share team codes to invite friends and more other features.",
           gitHub: "https://github.com/shrijanregmi/flutter-nova-esports",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
         },
       ],
       webLandingItem: {
@@ -65,15 +131,54 @@ export default {
           svg: "portfolio",
           title: "shrijanregmi official",
           description:
-            "We have a wealth of experience working with corporate and personal clients. Many of those clients have been working with us for more than two decades.",
+            "My portfolio website made using VueJs to showcase my skills.",
           gitHub: "https://github.com/shrijanregmi/shrijanregmi-website",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "VueJs",
+              url: "http://vuejs.org",
+              img: "vue",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
         },
         {
           svg: "gunasochautari",
           title: "gunasochautari",
           description:
-            "We have a wealth of experience working with corporate and personal clients. Many of those clients have been working with us for more than two decades.",
+            "A Server Side Rendered (SSR) news portal website made using NuxtJs where you can post news daily that can be shared on different platforms like facebook, twitter etc.",
           gitHub: "https://github.com/shrijanregmi/gunasochautari",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "VueJs",
+              url: "http://vuejs.org",
+              img: "vue",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+            {
+              name: "NuxtJs",
+              url: "https://nuxtjs.org/",
+              img: "nuxt",
+            },
+          ],
         },
       ],
     };

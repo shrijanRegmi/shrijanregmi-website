@@ -35,7 +35,7 @@
         (BACK TO TOP)
       </h4>
       <h4 class="d-flex">
-        &#169; 2020
+        &#169; 2021
         <div class="mx-2 mx-lg-4">MADE BY SR</div>
       </h4>
       <h4 class="ml-5 backToTop d-none d-lg-block" @click="onBackToTopClicked">
