@@ -12,6 +12,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.0.0-beta1",
     "core-js": "^3.6.5",
+    "cursor-dot": "^1.0.5",
     "firebase-tools": "^9.10.2",
     "jquery": "^3.5.1",
     "lottie-vuejs": "^0.4.0",

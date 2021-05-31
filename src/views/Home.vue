@@ -31,52 +31,5 @@ export default {
     Partners,
     Contact,
   },
-  mounted() {
-    const partnerSection = document.querySelector(".partners");
-    const contact = document.querySelector(".contact");
-
-    const app = document.querySelector(".home");
-    const hrs = document.querySelectorAll(".contact hr");
-
-    const horizontalTextSection = document.querySelector(
-      ".horizontal-scroll-text"
-    );
-    const horizontalText1 = document.querySelector(
-      ".horizontal-scroll-text .text1"
-    );
-    const horizontalText2 = document.querySelector(
-      ".horizontal-scroll-text .text2"
-    );
-
-    window.onscroll = function() {
-      const fadePos = partnerSection.offsetTop - (window.innerHeight / 2 - 100);
-      const fadePosContact = contact.offsetTop - (window.innerHeight / 2 - 300);
-
-      const horizontalTextSectionPos =
-        horizontalTextSection.offsetTop - (window.innerHeight / 2 + 500);
-
-      const scrollPos = window.scrollY;
-      const horizontalTextPos = (window.scrollY - horizontalTextSectionPos) / 3;
-
-      if (scrollPos >= horizontalTextSectionPos) {
-        horizontalText1.style.transform = `translateX(-${horizontalTextPos}px)`;
-        horizontalText2.style.transform = `translateX(${horizontalTextPos}px)`;
-      }
-
-      if (scrollPos >= fadePos) {
-        app.classList.add("black-bg");
-      } else {
-        app.classList.remove("black-bg");
-      }
-
-      hrs.forEach((hr) => {
-        if (scrollPos >= fadePosContact) {
-          hr.style.width = window.innerWidth - 120 + "px";
-        } else {
-          hr.style.width = "0px";
-        }
-      });
-    };
-  },
 };
 </script>

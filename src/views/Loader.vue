@@ -1,11 +1,10 @@
 <template>
-  <div class="loader-page">
+  <div class="loader-page d-none">
     <lottie-animation
       path="counter.json"
       :loop="false"
       :autoPlay="true"
       :speed="1"
-      @AnimControl="onJsonLoad"
     />
   </div>
 </template>
@@ -18,37 +17,37 @@ export default {
   components: {
     LottieAnimation,
   },
-  mounted() {
-    const requiredLoader = this.$route.hash == "";
-    const loaderPage = document.querySelector(".loader-page");
-    const body = document.querySelector("body");
+  // mounted() {    
+  //   const requiredLoader = this.$route.hash == "";
+  //   const loaderPage = document.querySelector(".loader-page");
+  //   const body = document.querySelector("body");
 
-    if (requiredLoader) {
-      body.style.overflow = "hidden";
-    } else {
-      loaderPage.style.display = "none";
-    }
-  },
-  methods: {
-    startTimer() {
-      const requiredLoader = this.$route.hash == "";
-      const body = document.querySelector("body");
-      const loaderPage = document.querySelector(".loader-page");
+  //   if (requiredLoader) {
+  //     body.style.overflow = "hidden";
+  //   } else {
+  //     loaderPage.style.display = "none";
+  //   }
+  // },
+  // methods: {
+  //   startTimer() {
+  //     const requiredLoader = this.$route.hash == "";
+  //     const body = document.querySelector("body");
+  //     const loaderPage = document.querySelector(".loader-page");
 
-      if (requiredLoader) {
-        setTimeout(() => {
-          loaderPage.style.display = "none";
-          body.style.overflow = "auto";
-        }, 4700);
-      }
-    },
-    onJsonLoad(e) {
-      if (e.isLoaded) {
-        console.log("LOaded");
-        this.startTimer();
-      }
-    },
-  },
+  //     if (requiredLoader) {
+  //       setTimeout(() => {
+  //         loaderPage.style.display = "none";
+  //         body.style.overflow = "auto";
+  //       }, 4700);
+  //     }
+  //   },
+  //   onJsonLoad(e) {
+  //     if (e.isLoaded) {
+  //       console.log("LOaded");
+  //       this.startTimer();
+  //     }
+  //   },
+  // },
 };
 </script>
 
