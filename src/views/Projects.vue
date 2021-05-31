@@ -35,7 +35,7 @@ export default {
           svg: "peaman",
           title: "peaman",
           description:
-            "A complete social media app that has features like Post / React / Comment / Chat / Follow  / Stories and much more made using flutter and firebase.",
+            "A complete social media app that has features like Post / React / Comment / Chat / Follow  / Stories and much more.",
           gitHub: "https://github.com/shrijanregmi/flutter-peaman",
           tools: [
             {
@@ -64,7 +64,7 @@ export default {
           svg: "spottup",
           title: "spottup",
           description:
-            "A complete Hotel / Tour / Vehicle booking app where user can register as a partner or as a customer made using flutter and firebase.",
+            "A complete Hotel / Tour / Vehicle booking app where user can register as a partner or as a customer.",
           gitHub: "https://github.com/shrijanregmi/flutter-spottup",
           tools: [
             {
