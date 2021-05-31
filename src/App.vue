@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div id="cursor"></div>
-    <Loader />
     <Navbar />
     <router-view />
     <MobileNav />
@@ -11,13 +10,11 @@
 <script>
 import Navbar from "@/components/navbar";
 import MobileNav from "@/components/mobile_navbar";
-import Loader from "@/views/Loader";
 
 export default {
   components: {
     Navbar,
     MobileNav,
-    Loader,
   },
   mounted() {
     const cursor = document.querySelector("#cursor");
