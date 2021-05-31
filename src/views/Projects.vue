@@ -35,7 +35,7 @@ export default {
           svg: "peaman",
           title: "peaman",
           description:
-            "A complete social media app that has features like Post/React/Comment/Chat/Follow/Stories and much more made using flutter and firebase.",
+            "A complete social media app that has features like Post / React / Comment / Chat / Follow  / Stories and much more made using flutter and firebase.",
           gitHub: "https://github.com/shrijanregmi/flutter-peaman",
           tools: [
             {
@@ -64,7 +64,7 @@ export default {
           svg: "spottup",
           title: "spottup",
           description:
-            "A complete Hotel/Tour/Vehicle booking app where user can register as a partner or as a customer made using flutter and firebase.",
+            "A complete Hotel / Tour / Vehicle booking app where user can register as a partner or as a customer made using flutter and firebase.",
           gitHub: "https://github.com/shrijanregmi/flutter-spottup",
           tools: [
             {
@@ -93,7 +93,7 @@ export default {
           svg: "nova",
           title: "nova<br/>esports",
           description:
-            "A pubg/freefire tournament hosting app where you can host solo, duo or squad tournament between the users. Chat with your teammates on real time. Share team codes to invite friends and more other features.",
+            "A pubg / freefire tournament hosting app where you can host solo, duo or squad tournament between the users. Chat with your teammates on real time. Share team codes to invite friends and more other features.",
           gitHub: "https://github.com/shrijanregmi/flutter-nova-esports",
           tools: [
             {
