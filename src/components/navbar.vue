@@ -4,11 +4,18 @@
       class="mNav d-flex justify-content-between align-items-center w-100 mb-1"
     >
       <p class="d-none d-md-block">GET IN TOUCH</p>
-      <h6 class="d-flex align-items-center">
-        SHRIJAN
-        <div class="circle"></div>
-        REGMI
-      </h6>
+      <router-link
+        to="/"
+        :style="{
+          color: '#707070',
+        }"
+      >
+        <h6 class="d-flex align-items-center">
+          SHRIJAN
+          <div class="circle"></div>
+          REGMI
+        </h6>
+      </router-link>
       <div></div>
       <div class="menu" @click.exact="onMenuClick">
         <div class="line line1"></div>
