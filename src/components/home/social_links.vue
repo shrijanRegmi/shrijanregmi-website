@@ -35,6 +35,11 @@ export default {
   img {
     width: 30px;
     height: 30px;
+    transition: 0.8s all;
+
+    &:hover {
+      transform: rotateZ(15deg);
+    }
   }
 }
 </style>

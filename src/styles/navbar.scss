@@ -91,6 +91,11 @@ $xl-breakpoint: 1400px;
 
   .item {
     margin: 40px 0px;
+    transition: 0.8s all;
+
+    &:hover {
+      transform: rotateZ(2deg);
+    }
   }
 
   .item1 {

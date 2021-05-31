@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="tools d-flex w-100 justify-content-between align-items-center"
-  >
+  <div class="tools d-flex w-100 justify-content-between align-items-center">
     <a
       v-for="item in items"
       :key="item.name"
@@ -13,7 +11,7 @@
       <img
         :src="require(`@/assets/images/expertise/${item.img}.png`)"
         alt="Adobe Xd"
-        class="img-fluid"
+        class="img-fluid tools-img"
     /></a>
   </div>
 </template>
@@ -28,7 +26,12 @@ export default {
 </script>
 
 <style @scoped lang="scss">
-img {
+.tools-img {
   cursor: pointer;
+  transition: 0.8s all;
+
+  &:hover {
+    transform: rotateZ(10deg);
+  }
 }
 </style>

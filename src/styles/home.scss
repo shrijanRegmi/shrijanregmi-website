@@ -136,6 +136,7 @@ a {
 .plus {
   padding: 20px;
   margin-left: 20px;
+  transition: 0.8s all;
   .line {
     height: 3px;
     width: 40px;
@@ -144,6 +145,10 @@ a {
 
   .line2 {
     transform: rotateZ(90deg) translateX(-3px);
+  }
+
+  &:hover {
+    transform: rotateZ(15deg);
   }
 }
 
@@ -207,6 +212,11 @@ a {
     background-color: #fff;
     border-radius: 50%;
     color: #000;
+    transition: 0.8s all;
+
+    &:hover {
+      transform: rotateZ(10deg);
+    }
   }
 
   hr {
