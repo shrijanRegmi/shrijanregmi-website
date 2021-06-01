@@ -118,6 +118,107 @@ export default {
             },
           ],
         },
+        {
+          svg: "mathy",
+          title: "mathy",
+          description:
+            "An interactive flutter math game to test your math skills with the leaderboard feature to see your score among various other players",
+          gitHub: "https://github.com/shrijanRegmi/Mathy-Flutter-App",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+          ],
+        },
+        {
+          svg: "quizy",
+          title: "quizy",
+          description:
+            "A quiz app with the admin panel where you can host various types of quiz and post upto 2000 quiz questions.",
+          gitHub: "https://github.com/shrijanRegmi/Quizy-Wizy-Flutter-App",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+          ],
+        },
+        {
+          svg: "workup",
+          title: "work up",
+          description:
+            "A basic fitness app which will help you to engineer your body during lockdown. Contains almost 30 different exercises to match your goals.",
+          gitHub: "https://github.com/shrijanRegmi/Work-my-life-app",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
+        },
+        {
+          svg: "iprecious",
+          title: "iprecious",
+          description:
+            "A flutter app where you can chat and play realtime game with your friends, buy coins, sell coins etc.",
+          gitHub: "https://github.com/shrijanRegmi/iPrecious-app",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+          ],
+        },
       ],
       webLandingItem: {
         svg: "mobile_img",
