@@ -27,10 +27,39 @@ export default {
         svg: "mobile_img",
         title: "mobile",
         description:
-          "We have a wealth of experience working with corporate and personal clients. Many of those clients have been working with us for more than two decades.",
+          "I have been responsible for translating code into user-friendly applications. I have been collaborating with internal teams to develop functional mobile applications while working in a fast-paced environment. Essentially, I am contributing to the design, testing, releasing and support of the application.",
         gitHub: "https://github.com/shrijanRegmi?tab=repositories",
       },
       mobileItems: [
+        {
+          svg: "sendman",
+          title: "sendman",
+          description:
+            "Send Man allows you to share high quality disappearing images. Just upload the image, set disappearing date and time and share the link to the images.",
+          gitHub: "https://github.com/shrijanregmi/flutter-sendman",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
+        },
         {
           svg: "peaman",
           title: "peaman",
@@ -224,7 +253,7 @@ export default {
         svg: "mobile_img",
         title: "web",
         description:
-          "We have a wealth of experience working with corporate and personal clients. Many of those clients have been working with us for more than two decades.",
+          "My role is responsible for designing, coding and modifying websites, from layout to function and according to a client’s specifications. I strive to create visually appealing sites that feature user-friendly design and clear navigation.",
         gitHub: "https://github.com/shrijanRegmi?tab=repositories",
       },
       webItems: [
@@ -249,6 +278,11 @@ export default {
               name: "Javascript",
               url: "http://www.javascript.com",
               img: "javascript",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
             },
           ],
         },
@@ -278,6 +312,40 @@ export default {
               name: "NuxtJs",
               url: "https://nuxtjs.org/",
               img: "nuxt",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+          ],
+        },
+        {
+          svg: "sendman_web",
+          title: "sendman",
+          description:
+            "Sendman allows you to share high quality disappearing images. This web app is responsible for viewing the images shared using sendman app.",
+          gitHub: "https://github.com/shrijanregmi/gunasochautari",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "VueJs",
+              url: "http://vuejs.org",
+              img: "react",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
             },
           ],
         },

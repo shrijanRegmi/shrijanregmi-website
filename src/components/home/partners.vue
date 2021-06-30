@@ -50,7 +50,7 @@
           data-aos="fade-left"
           data-aos-anchor-placement="bottom-bottom"
         >
-          We have a wealth of experience working with corporate and personal
+          I have wealth of experience working with corporate and personal
           clients. Many of those clients have been working with us for more than
           two years.
         </h4>
