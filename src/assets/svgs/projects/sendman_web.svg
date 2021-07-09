@@ -15,6 +15,9 @@
         <path id="Path_7" data-name="Path 7" d="M3714,1821.965V1453.743s109.87,4.3,183.815,35.253,112.864,88.34,112.864,88.34Z" transform="translate(-3389 87)" fill="#53c6ff"/>
       </g>
     </g>
-    <rect id="Web_1920_1" data-name="Web 1920 – 1" width="1188" height="592" transform="translate(430 1314)" fill="url(#pattern)"/>
+    <g id="Web_1920_1" data-name="Web 1920 – 1" transform="translate(430 1314)" stroke="#707070" stroke-width="1" fill="url(#pattern)">
+      <rect width="1188" height="592" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1187" height="591" fill="none"/>
+    </g>
   </g>
 </svg>

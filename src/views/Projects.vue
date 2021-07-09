@@ -90,6 +90,35 @@ export default {
           ],
         },
         {
+          svg: "roottwo",
+          title: "root two",
+          description:
+            "An interactive flutter math game to test your math skills with the leaderboard feature to see your score among various other players. It is the extended version of Mathy app.",
+          gitHub: "https://github.com/shrijanRegmi/flutter-root-two",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
+        },
+        {
           svg: "spottup",
           title: "spottup",
           description:
@@ -325,7 +354,7 @@ export default {
           title: "sendman",
           description:
             "Sendman allows you to share high quality disappearing images. This web app is responsible for viewing the images shared using sendman app.",
-          gitHub: "https://github.com/shrijanregmi/gunasochautari",
+          gitHub: "https://github.com/shrijanregmi",
           tools: [
             {
               name: "Adobe XD",
@@ -333,8 +362,8 @@ export default {
               img: "adobe_xd",
             },
             {
-              name: "VueJs",
-              url: "http://vuejs.org",
+              name: "ReactJs",
+              url: "http://reactjs.org",
               img: "react",
             },
             {
@@ -346,6 +375,30 @@ export default {
               name: "Firebase",
               url: "https://firebase.google.com",
               img: "firebase",
+            },
+          ],
+        },
+        {
+          svg: "ioeman",
+          title: "ioeman",
+          description:
+            "Syllabus, Books, Notes, Question Collections for TU Affiliated Engineering Colleges, Nepal",
+          gitHub: "https://github.com/shrijanRegmi/ioeman-website",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "ReactJs",
+              url: "http://reactjs.org",
+              img: "react",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
             },
           ],
         },
