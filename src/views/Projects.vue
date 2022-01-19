@@ -32,6 +32,35 @@ export default {
       },
       mobileItems: [
         {
+          svg: "food_with_love",
+          title: "food with<br/>love",
+          description:
+            "Food with love is a shopping app dedicated for food lovers. It is an application that is created using food_with_love flutter package.",
+          gitHub: "https://github.com/shrijanregmi/flutter-food-with-love",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
+        },
+        {
           svg: "sendman",
           title: "sendman",
           description:
