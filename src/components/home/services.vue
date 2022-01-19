@@ -6,10 +6,9 @@
       SERVICES
     </h6>
     <h1>EXPERTISE</h1>
-    <div
-      class="container services-icons px-3"
-    >
-      <Tools :items="tools" />
+    <div class="container services-icons px-3">
+      <Tools :items="tools1" class="justify-content-between" />
+      <Tools :items="tools2" class="justify-content-around px-5" />
     </div>
     <hr />
     <ExpertiseItem v-for="item in expertise" :key="item.id" :expertise="item" />
@@ -40,7 +39,7 @@ export default {
           route: "/projects/web",
         },
       ],
-      tools: [
+      tools1: [
         {
           name: "Dart",
           url: "http://dart.dev",
@@ -75,6 +74,33 @@ export default {
           name: "Adobe XD",
           url: "https://www.adobe.com/products/xd.html",
           img: "adobe_xd",
+        },
+      ],
+      tools2: [
+        {
+          name: "Algolia",
+          url: "https://www.algolia.com/",
+          img: "algolia",
+        },
+        {
+          name: "Figma",
+          url: "https://www.figma.com/",
+          img: "figma",
+        },
+        {
+          name: "Get Stream",
+          url: "https://getstream.io/",
+          img: "getstream",
+        },
+        {
+          name: "Mixpanel",
+          url: "https://mixpanel.com/",
+          img: "mixpanel",
+        },
+        {
+          name: "Rudderstack",
+          url: "https://rudderstack.com/",
+          img: "rudderstack",
         },
       ],
     };

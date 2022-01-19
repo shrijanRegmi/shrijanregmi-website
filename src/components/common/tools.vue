@@ -1,5 +1,5 @@
 <template>
-  <div class="tools d-flex w-100 justify-content-between align-items-center">
+  <div class="tools d-flex w-100 align-items-center">
     <a
       v-for="item in items"
       :key="item.name"
