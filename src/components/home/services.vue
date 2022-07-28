@@ -1,6 +1,6 @@
 <template>
-  <div id="services" class="services text-center">
-    <h6 class="d-flex justify-content-center">
+  <div id="services" :class="`services ${isFullPage && 'services-full-page'} text-center`">
+    <h6 class="d-flex justify-content-center" v-if="!isFullPage">
       (02)
       <div class="mx-4"></div>
       SERVICES
@@ -24,6 +24,9 @@ export default {
   components: {
     ExpertiseItem,
     Tools,
+  },
+  props: {
+    isFullPage: Boolean,
   },
   data() {
     return {

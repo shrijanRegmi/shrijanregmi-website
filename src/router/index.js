@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Projects from "../views/Projects.vue";
+import Expertise from "../views/Expertise.vue";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/projects/:id",
     name: "Projects",
     component: Projects,
+  },
+  {
+    path: "/expertise",
+    name: "Expertise",
+    component: Expertise,
   },
 ];
 

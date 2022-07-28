@@ -32,6 +32,64 @@ export default {
       },
       mobileItems: [
         {
+          svg: "gopasal",
+          title: "gopasal",
+          description:
+            "Shop groceries online & get fresh food, drinks, snacks & alcohol delivered directly to your door in as little as 2 hours with same day delivery. This is online grocery shopping made easy, it's safe—contactless delivery is available.",
+          gitHub: "https://github.com/shrijanregmi/flutter-gopasal",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
+        },
+        {
+          svg: "pickert",
+          title: "pickert",
+          description:
+            "Pickert is the place where people come together to have the most authentic and interesting conversations on the internet—Where gaming communities, nostalgic internet forums, bloggers, meme-makers, and fandoms mingle alongside video streamers, support groups, news junkies, armchair experts, seasoned professionals, and artists and creators of all types.",
+          gitHub: "https://github.com/shrijanregmi/flutter-pickert",
+          tools: [
+            {
+              name: "Adobe XD",
+              url: "https://www.adobe.com/products/xd.html",
+              img: "adobe_xd",
+            },
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
+        },
+        {
           svg: "food_with_love",
           title: "food with<br/>love",
           description:

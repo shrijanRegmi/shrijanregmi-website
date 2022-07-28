@@ -1,50 +1,28 @@
 <template>
-  <div
-    class="mobile-navbar d-flex flex-column justify-content-between align-items-center"
-  >
+  <div class="mobile-navbar d-flex flex-column justify-content-between align-items-center">
     <div class="d-flex w-100">
-      <SocialLinks
-        :icons="icons"
-        class="m-4 m-md-5"
-        :style="{
-          width: '200px !important',
-          marginBottom: '0px !important',
-        }"
-      />
+      <SocialLinks :icons="icons" class="m-4 m-md-5" :style="{
+        width: '200px !important',
+        marginBottom: '0px !important',
+      }" />
     </div>
     <div class="content mb-5">
-      <a
-        href="/#about"
-        class="item item1 d-flex align-items-center"
-        @click="onLinkClicked"
-      >
+      <a href="/#about" class="item item1 d-flex align-items-center" @click="onLinkClicked">
         <p>(01)</p>
         <div class="mx-4"></div>
         <h2>ABOUT US</h2>
       </a>
-      <a
-        href="/#services"
-        class="item item2 d-flex align-items-center"
-        @click="onLinkClicked"
-      >
+      <a href="/#services" class="item item2 d-flex align-items-center" @click="onLinkClicked">
         <p>(02)</p>
         <div class="mx-4"></div>
         <h2>SERVICES</h2>
       </a>
-      <a
-        href="/#partners"
-        class="item item3 d-flex align-items-center"
-        @click="onLinkClicked"
-      >
+      <a href="/#partners" class="item item3 d-flex align-items-center" @click="onLinkClicked">
         <p>(03)</p>
         <div class="mx-4"></div>
         <h2>PARTNERS</h2>
       </a>
-      <a
-        href="/#contact"
-        class="item item4 d-flex align-items-center"
-        @click="onLinkClicked"
-      >
+      <a href="/#contact" class="item item4 d-flex align-items-center" @click="onLinkClicked">
         <p>(04)</p>
         <div class="mx-4"></div>
         <h2>CONTACT</h2>
@@ -52,10 +30,9 @@
     </div>
     <div></div>
     <div
-      class="mobile-nav-footer px-5 d-flex flex-column flex-md-row justify-content-between align-items-center w-100 mb-4 mt-4"
-    >
+     class="mobile-nav-footer px-5 d-flex flex-column flex-md-row justify-content-between align-items-center w-100 mb-4 mt-4">
       <p class="d-flex">
-        &#169; 2021
+        &#169; {{ date }}
       </p>
       <p class="ml-5">MADE BY SR</p>
       <p>ALL RIGHTS RESERVED</p>
@@ -84,6 +61,7 @@ export default {
   },
   data: function() {
     return {
+      date: new Date().getFullYear(),
       icons: [
         {
           url: "https://www.facebook.com/ilyyhs52/",
