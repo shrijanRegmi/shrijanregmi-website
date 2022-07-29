@@ -22,7 +22,7 @@ export default {
     return {
       landingItem: {},
       items: [],
-      isHorizontal: this.$route.params.id == "mobile",
+      isHorizontal: this.$route.params.id != "web",
       mobileLandingItem: {
         svg: "mobile_img",
         title: "mobile",
@@ -490,14 +490,116 @@ export default {
           ],
         },
       ],
+      packagesLandingItem: {
+        svg: "mobile_img",
+        title: "packages",
+        description:
+          "Packages, can be explained as, the shared parts contributed by other developers to a certain framework (Eg. Flutter) ecosystems. This allows developers to quickly build an app without having to develop everything from scratch. Most of my packages are created for Flutter.",
+        gitHub: "https://github.com/shrijanRegmi?tab=repositories",
+      },
+      packagesItems: [
+        {
+          svg: "peaman",
+          title: "peaman",
+          description:
+            "A service for building social media applications with ease that helps to create a intermediate social media application within weeks.",
+          gitHub: "https://github.com/shrijanregmi/peaman",
+          tools: [
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
+        },
+        {
+          svg: "food_with_love",
+          title: "food with<br/>love",
+          description:
+            "A service for building food ordering and delivering applications with ease that helps to create a complete application within weeks.",
+          gitHub: "https://github.com/shrijanregmi/flutter-food-with-love",
+          tools: [
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+            {
+              name: "Firebase",
+              url: "https://firebase.google.com",
+              img: "firebase",
+            },
+            {
+              name: "Javascript",
+              url: "http://www.javascript.com",
+              img: "javascript",
+            },
+          ],
+        },
+        {
+          svg: "gopasal",
+          title: "flutter<br/>feed reaction",
+          description:
+            "A flutter package that helps us to create a facebook-like reaction experience that can be used to show your reaction on post, comment or message.",
+          gitHub: "https://github.com/shrijanregmi/flutter_feed_reaction",
+          tools: [
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+          ],
+        },
+        {
+          svg: "gopasal",
+          title: "progress<br/>value button",
+          description:
+            "A flutter package that creates a progress button with smooth animation with the supplied value in percentage.",
+          gitHub: "https://github.com/shrijanregmi/progress_value_button",
+          tools: [
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+          ],
+        },
+        {
+          svg: "gopasal",
+          title: "always<br/>scroll list",
+          description:
+            "A flutter package that can create an infinite list which can auto-scroll forever.",
+          gitHub: "https://github.com/shrijanregmi/always_scroll_list",
+          tools: [
+            {
+              name: "Flutter",
+              url: "http://flutter.dev",
+              img: "flutter",
+            },
+          ],
+        },
+      ],
     };
   },
   created() {
     const { id } = this.$route.params;
 
-    if (id == "mobile") {
+    if (id === "mobile") {
       this.landingItem = this.mobileLandingItem;
       this.items = this.mobileItems;
+    } else if (id === "packages") {
+      this.landingItem = this.packagesLandingItem;
+      this.items = this.packagesItems;
     } else {
       this.landingItem = this.webLandingItem;
       this.items = this.webItems;

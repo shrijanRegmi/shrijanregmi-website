@@ -41,6 +41,11 @@ export default {
           title: "WEB DEVELOPMENT",
           route: "/projects/web",
         },
+        {
+          id: 3,
+          title: "LIBRARY AND PACKAGE DEVELOPMENT",
+          route: "/projects/packages",
+        },
       ],
       tools1: [
         {
@@ -108,6 +113,33 @@ export default {
       ],
     };
   },
+  mounted() {
+    this.$nextTick(() => {
+      window.addEventListener('resize', this.onResize);
+    })
+  },
+
+  beforeDestroy() {
+    window.removeEventListener('resize', this.onResize);
+  },
+
+  methods: {
+    onResize() {
+      if (window.innerWidth < 810) {
+        this.expertise.forEach(e => {
+          if (e.id === 3) {
+            e.title = "PACKAGE DEVELOPMENT";
+          }
+        })
+      } else {
+        this.expertise.forEach(e => {
+          if (e.id === 3) {
+            e.title = "LIBRARY AND PACKAGE DEVELOPMENT";
+          }
+        })
+      }
+    }
+  }
 };
 </script>
 
