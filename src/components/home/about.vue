@@ -29,7 +29,7 @@
         class="about2"
         data-aos="fade-up"
         data-aos-anchor-placement="bottom-bottom"
-        src="@/assets/images/about2.jpg"
+        src="@/assets/images/about2.png"
         alt="Working"
       />
     </div>
